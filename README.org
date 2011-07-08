@@ -1,6 +1,6 @@
 * PHP Database Hook
-  Tired of not being able to get into a shared host's database? Don't have PHP
-  my admin or shell access? Upload this one script to gain access.
+  Tired of not being able to get into a shared host's database? Don't have
+  PHPMyAdmin or shell access? Upload this one script to gain access.
 * Usage
   Change connection string to match your database settings. 
 
