@@ -1,0 +1,21 @@
+* PHP Database Hook
+  Tired of not being able to get into a shared host's database? Don't have PHP
+  my admin or shell access? Upload this one script to gain access.
+* Usage
+  Change connection string to match your database settings. 
+
+  (Possibly grab the settings from other installed software on the host,
+  Wordpress, Drupal, Joomla, etc etc. Look for config.php or settings.php files)
+
+  Upload script.
+
+  Navigate in your browser to where you uploaded the script.
+
+  Enter SQL and get a table of results.
+
+* WARNINGS
+  
+  This is obviously a complete security hole. Delete the script when you are
+  done.
+
+  There is no checking of the SQL you enter, or warnings. Use at your own risk.
