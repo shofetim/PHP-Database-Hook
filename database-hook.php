@@ -43,15 +43,18 @@ while (($row = @mysql_fetch_assoc($data)) && $counter < 100) {
     echo '</script>';
   }
   echo '<tr>';
-  foreach ($row as $header => $field) {
-    if ($headerRow) {
-    echo '<th>' . $header . '</th>';
-    } else {
-    echo '<td>' . $field . '</td>';
+  if ($headerRow) {
+    echo '<tr>';
+    foreach ($row as $header => $field) {
+      echo '<th>' . $header . '</th>';
     }
+    echo '</tr>';
+  } 
+  foreach ($row as $header => $field) {
+    echo '<td>' . $field . '</td>';
   }
   $headerRow = false;
-  echo '<tr>';
+  echo '</tr>';
  }
 
 echo '</table>';
